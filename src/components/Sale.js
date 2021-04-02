@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import './style.css'
 
-const Sale=()=> {
+const Sale = () => {
     const settings = {
         className: "center",
         centerMode: true,
@@ -12,115 +12,186 @@ const Sale=()=> {
         speed: 500,
         responsive: [
             {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-              }
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
             },
             {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
-              }
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
             },
             {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-          ]
+        ]
     };
     return (
         <>
-                <div className="container mt-3" style={{backgroundColor:'#ec2349',width:'95%',cursor:'context-menu'}} >
-                    <p className="text-white py-4 text-end" style={{fontSize:'70px',paddingRight:'170px'}}>SALE</p>
-                </div>
+            <div className="container mt-3" style={{ backgroundColor: '#ec2349', width: '95%', cursor: 'context-menu' }} >
+                <p className="text-white py-4 text-end" style={{ fontSize: '70px', paddingRight: '170px' }}>SALE</p>
+            </div>
 
-                <h3 className="container pt-4" style={{ color: '#555555' }}>CHECK OUR PRODUCTS ON SALE
+            <h3 className="container pt-4" style={{ color: '#555555' }}>CHECK OUR PRODUCTS ON SALE
                 <hr width="500px" />
-                </h3>
-                <div className="container mt-5 px-5">
-                    <Slider {...settings}>
-                        <div>
-                            <img src="images/l1.jpg" height="220px" width="220px" />
-                            <center>
-                                <p className="title mt-1">men's sunglasses</p>
-                                <p className="name m-0">Bishrom Nomad Tortoise sunglasses for Men and Women
+            </h3>
+            <div className="container mt-5 px-5">
+                <Slider {...settings}>
+                    <div>
+                        <div className="image-holder">
+                            <img src="images/s1.jpg" />
+                            <div className="sale">SALE!</div>
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <div className="quick-view py-1">QUICKVIEW</div>
+                        </div>
+                        <center>
+                            <p className="title mt-1">sunglasses</p>
+                            <p className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
                                 </p>
-                                <p className="price">Rs 5,500.00</p>
-                            </center>
+                            <div className="d-flex flex-wrap">
+                                <p className="prev-price">Rs 3,800.00</p>
+                                <p className="price">Rs 3,500.00</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+
+                        <div className="image-holder">
+                            <img src="images/s2.jpg" />
+                            <div className="sale">SALE!</div>                            
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <div className="quick-view py-1">QUICKVIEW</div>
                         </div>
-                        <div>
-                            <img src="images/l2.jpg" height="220px" width="220px" />
-                            <center>
-                                <p className="title mt-1">men's sunglasses</p>
-                                <p className="name m-0">Bishrom Nomad Green sunglasses for Men and Women
+                        <center>
+                            <p className="title mt-1">sunglasses</p>
+                            <p className="name m-0">Bishrom vintage 1243 silver sunglasses for women
                                 </p>
-                                <p className="price">Rs 5,500.00</p>
-                            </center>
+                            <div className="d-flex flex-wrap">
+                                <p className="prev-price">Rs 3,800.00</p>
+                                <p className="price">Rs 3,500.00</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+
+                        <div className="image-holder">
+                            <img src="images/s3.jpg" />
+                            <div className="sale">SALE!</div>                            
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <div className="quick-view py-1">QUICKVIEW</div>
                         </div>
-                        <div>
-                            <img src="images/l3.jpg" height="220px" width="220px" />
-                            <center>
-                                <p className="title mt-1">men's sunglasses</p>
-                                <p className="name m-0">Bishrom Nomad Black Sunglasses for Men and Women
+                        <center>
+                            <p className="title mt-1">sunglasses</p>
+                            <p className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
                                 </p>
-                                <p className="price">Rs 5,500.00</p>
-                            </center>
+                            <div className="d-flex flex-wrap">
+                                <p className="prev-price">Rs 3,800.00</p>
+                                <p className="price">Rs 3,500.00</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+
+                        <div className="image-holder">
+                            <img src="images/s4.jpg" />
+                            <div className="sale">SALE!</div>
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <div className="quick-view py-1">QUICKVIEW</div>
                         </div>
-                        <div>
-                            <img src="images/l4.jpg" height="220px" width="220px" />
-                            <center>
-                                <p className="title mt-1">eyeglasses</p>
-                                <p className="name m-0">Bishrom Vintage 9549 Black Eyeglasses for Men and Women
+                        <center>
+                            <p className="title mt-1">sunglasses</p>
+                            <p className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
                                 </p>
-                                <p className="price">Rs 3,200.00</p>
-                            </center>
+                            <div className="d-flex flex-wrap">
+                                <p className="prev-price">Rs 3,800.00</p>
+                                <p className="price">Rs 3,500.00</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+
+                        <div className="image-holder">
+                            <img src="images/s5.jpg" />
+                            <div className="sale">SALE!</div>                            
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <div className="quick-view py-1">QUICKVIEW</div>
                         </div>
-                        <div>
-                            <img src="images/l5.jpg" height="220px" width="220px" />
-                            <center>
-                                <p className="title mt-1">eyeglasses</p>
-                                <p className="name m-0">Bishrom Vintage 9549 Green Eyeglasses for Men and Women
+                        <center>
+                            <p className="title mt-1">men's sunglasses</p>
+                            <p className="name m-0">Bishrom Vintage 1245 silver sunglasses for men and women both
                                 </p>
-                                <p className="price">Rs 3,200.00</p>
-                            </center>
+                            <div className="d-flex flex-wrap">
+                                <p className="prev-price">Rs 3,800.00</p>
+                                <p className="price">Rs 3,500.00</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+
+                        <div className="image-holder">
+                            <img src="images/s6.jpg" />
+                            <div className="sale">SALE!</div>                            
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <div className="quick-view py-1">QUICKVIEW</div>
                         </div>
-                        <div>
-                            <img src="images/l6.jpg" height="220px" width="220px" />
-                            <center>
-                                <p className="title mt-1">eyeglasses</p>
-                                <p className="name m-0">Bishrom Vintage 9549 Purple Eyeglasses for Men and Women
+                        <center>
+                            <p className="title mt-1">men's sunglasses</p>
+                            <p className="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both
                                 </p>
-                                <p className="price">Rs 3,200.00</p>
-                            </center>
+                            <div className="d-flex flex-wrap">
+                                <p className="prev-price">Rs 3,800.00</p>
+                                <p className="price">Rs 3,500.00</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+
+                        <div className="image-holder">
+                            <img src="images/s7.jpg" />
+                            <div className="sale">SALE!</div>                            
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <div className="quick-view py-1">QUICKVIEW</div>
                         </div>
-                        <div>
-                            <img src="images/l7.jpg" height="220px" width="220px" />
-                            <center>
-                                <p className="title mt-1">eyeglasses</p>
-                                <p className="name m-0">Bishrom Vintage 9549 Grey Eyeglasses for Men and Women
+                        <center>
+                            <p className="title mt-1">men's sunglasses</p>
+                            <p className="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both
                                 </p>
-                                <p className="price">Rs 3,200.00</p>
-                            </center>
+                            <div className="d-flex flex-wrap">
+                                <p className="prev-price">Rs 3,800.00</p>
+                                <p className="price">Rs 3,500.00</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+
+                        <div className="image-holder">
+                            <img src="images/s8.jpg" />
+                            <div className="sale">SALE!</div>                            
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <div className="quick-view py-1">QUICKVIEW</div>
                         </div>
-                        <div>
-                            <img src="images/l8.jpg" height="220px" width="220px" />
-                            <center>
-                                <p className="title mt-1">men's sunglasses</p>
-                                <p class="name m-0">Bishrom Vintage 9545 Grey Sunglasses for Men and Women Both</p>
-                                <p className="price">Rs 4,200.00</p>
-                            </center>
-                        </div>
-                    </Slider>
-                </div>
+                        <center>
+                            <p className="title mt-1">men's sunglasses</p>
+                            <p class="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both</p>
+                            <div className="d-flex flex-wrap">
+                                <p className="prev-price">Rs 3,800.00</p>
+                                <p className="price">Rs 3,500.00</p>
+                            </div>
+                        </center>
+                    </div>
+                </Slider>
+            </div>
         </>
     )
 }
