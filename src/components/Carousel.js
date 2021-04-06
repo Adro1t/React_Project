@@ -8,19 +8,19 @@ const Carousel = () => {
                 <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="images/cover.jpg" className="d-block w-100" alt="..." style={{ height: '440px' }} />
+                            <img src="images/cover.jpg" className="d-block w-100" alt="..." style={{ height: '530px' }} />
                         </div>
                         <div className="carousel-item">
-                            <img src="images/cover1.jpg" className="d-block w-100" alt="..." style={{ height: '440px' }} />
+                            <img src="images/cover1.jpg" className="d-block w-100" alt="..." style={{ height: '530px' }} />
                         </div>
                         <div className="carousel-item">
-                            <img src="images/cover2.jpg" className="d-block w-100" alt="..." style={{ height: '440px' }} />
+                            <img src="images/cover2.jpg" className="d-block w-100" alt="..." style={{ height: '530px' }} />
                         </div>
                         <div className="carousel-item">
-                            <img src="images/cover3.jpg" className="d-block w-100" alt="..." style={{ height: '440px' }} />
+                            <img src="images/cover3.jpg" className="d-block w-100" alt="..." style={{ height: '530px' }} />
                         </div>
                         <div className="carousel-item">
-                            <img src="images/cover4.jpg" className="d-block w-100" alt="..." style={{ height: '440px' }} />
+                            <img src="images/cover4.jpg" className="d-block w-100" alt="..." style={{ height: '530px' }} />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
