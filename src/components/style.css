@@ -324,3 +324,7 @@
 .sub_category:hover .sub_cheading{
     top: 10%;
 }
+
+.footer_link:hover{
+    color: white !important;
+}

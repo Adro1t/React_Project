@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from './Carousel'
 import Categories from './Categories'
+import Footer from './Footer'
 import Latest from './Latest'
 import Navbar from './Navbar'
 import Sale from './Sale'
@@ -17,6 +18,7 @@ const Home = () => {
                 </div>
                 <Categories/>
             </div>
+            <Footer/>
 
         </>
     )
