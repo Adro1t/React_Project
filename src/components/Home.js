@@ -3,6 +3,7 @@ import Carousel from './Carousel'
 import Categories from './Categories'
 import Footer from './Footer'
 import Latest from './Latest'
+import Messenger from './Messenger'
 import Navbar from './Navbar'
 import Sale from './Sale'
 
@@ -19,6 +20,7 @@ const Home = () => {
                 <Categories/>
             </div>
             <Footer/>
+            <Messenger/>
 
         </>
     )

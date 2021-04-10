@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className="container">
                     <ul className="d-flex justify-content-end p-2 mb-0">
                         <li className="header list-unstyled  px-2 border-end"><Link to="/" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>Home</Link></li>
-                        <li className="header list-unstyled  px-2 border-end"><Link to="" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>About Us</Link></li>
+                        <li className="header list-unstyled  px-2 border-end"><Link to="/about-us" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>About Us</Link></li>
                         <li className="header list-unstyled  px-2 border-end"><Link to="" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>Wishlist</Link></li>
                         <li className="header list-unstyled  px-2"><Link to="" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>Contact Us</Link></li>
                     </ul>
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+                                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -76,7 +76,7 @@ const Navbar = () => {
                                     <Link className="nav-link" to="#">photos</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="#">about us</Link>
+                                    <Link className="nav-link" to="/about-us">about us</Link>
                                 </li>
                             </ul>
                         </div>

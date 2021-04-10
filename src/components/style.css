@@ -328,3 +328,40 @@
 .footer_link:hover{
     color: white !important;
 }
+
+.messenger{
+    font-size: 40px;
+    color: white !important;
+    background-color: rgb(10, 124, 255);
+    padding: 0px 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 35px;
+    right: 2%;
+    z-index: 1030;
+}
+
+.textarea{
+    position: relative;
+}
+
+.textarea:focus-within .submit{
+    display: block;
+}
+
+.submit{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    background-color: #f5f6f7;
+    border: 1px solid #999999;
+    height: 50px;
+    display: none;
+}
+
+.submit button{
+    position: absolute;
+    background-color: #627f9a;
+    right: 1% ;
+    border-radius: 2px;
+}
