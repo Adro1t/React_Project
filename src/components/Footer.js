@@ -44,8 +44,8 @@ const Footer = () => {
             <div className="mt-5" style={{ backgroundColor: '#333333',height:'100px'}}>
                 <div className="container" width="80%">
                     <ul className="d-flex p-2 mb-0">
-                        <li className="list-unstyled  px-2"><Link to="/" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>WISHLIST</Link></li>
-                        <li className="list-unstyled  px-2"><Link to="" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>HOME</Link></li>
+                        <li className="list-unstyled  px-2"><Link to="/wishlist" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>WISHLIST</Link></li>
+                        <li className="list-unstyled  px-2"><Link to="/" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>HOME</Link></li>
                         <li className="list-unstyled  px-2"><Link to="" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>BLOG</Link></li>
                         <li className="list-unstyled  px-2"><Link to="" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>OUR RETURN/EXCHANGE POLICY</Link></li>
                     </ul>

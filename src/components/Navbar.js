@@ -11,8 +11,8 @@ const Navbar = () => {
                     <ul className="d-flex justify-content-end p-2 mb-0">
                         <li className="header list-unstyled  px-2 border-end"><Link to="/" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>Home</Link></li>
                         <li className="header list-unstyled  px-2 border-end"><Link to="/about-us" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>About Us</Link></li>
-                        <li className="header list-unstyled  px-2 border-end"><Link to="" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>Wishlist</Link></li>
-                        <li className="header list-unstyled  px-2"><Link to="" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>Contact Us</Link></li>
+                        <li className="header list-unstyled  px-2 border-end"><Link to="/wishlist" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>Wishlist</Link></li>
+                        <li className="header list-unstyled  px-2"><Link to="/contact-us" className="text-decoration-none text-white" style={{ fontSize: '14px' }}>Contact Us</Link></li>
                     </ul>
                 </div>
             </div>
