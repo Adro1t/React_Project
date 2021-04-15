@@ -158,6 +158,8 @@
     position: absolute;
     width: 100%;
     bottom: 0;
+    text-decoration: none;
+    text-transform: uppercase;
     text-align: center;
     background-color: #627f9a;
     font-size: 13px;
@@ -184,6 +186,7 @@
 
 .quick-view:hover{
     text-decoration: underline;
+    color: white;
 }
 
 .title{
@@ -191,17 +194,22 @@
     font-size: 11px;
     font-weight: bold;
     color: #999999;
+    text-decoration: none;
 }
 
 .name{
     font-size: 14.4px;
     text-transform: capitalize;
+    text-decoration: none;
     color: #627f9a;
     padding: 0;
     padding-bottom: 10px;
     width: 95%;
 }
 
+.title:hover{
+    color: #999999;
+}
 .name:hover{
     color: black;
 }
@@ -341,27 +349,6 @@
     z-index: 1030;
 }
 
-.textarea{
-    position: relative;
-}
-
-.textarea:focus-within .submit{
-    display: block;
-}
-
-.submit{
-    position: absolute;
-    width: 100%;
-    top: 100%;
-    background-color: #f5f6f7;
-    border: 1px solid #999999;
-    height: 50px;
-    display: none;
-}
-
-.submit button{
-    position: absolute;
-    background-color: #627f9a;
-    right: 1% ;
-    border-radius: 2px;
+.button:hover{
+    background-color: #4e667b !important;
 }

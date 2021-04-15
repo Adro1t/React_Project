@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Comments from './Comments'
+import Messenger from './Messenger'
 
 const AboutUs = () => {
     return (
@@ -21,6 +22,7 @@ const AboutUs = () => {
 
             </div>
             <Footer />
+            <Messenger/>
         </>
     )
 }

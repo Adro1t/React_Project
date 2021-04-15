@@ -1,6 +1,8 @@
 import React from 'react'
 import Comments from './Comments'
 import Footer from './Footer'
+import Messenger from './Messenger'
+import './style.css'
 import Navbar from './Navbar'
 
 const ContactUs = () => {
@@ -13,28 +15,29 @@ const ContactUs = () => {
 
                 <form className="m-3">
                     <div className="mb-3">
-                        <label className="form-label" style={{color:'#777777'}}>Your Name (required)</label>
+                        <label style={{color:'#777777'}}>Your Name (required)</label>
                         <input type="text" className="form-control" style={{ width: '100%' }} />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label" style={{color:'#777777'}}>Your Email (required)</label>
+                        <label  style={{color:'#777777'}}>Your Email (required)</label>
                         <input type="email" className="form-control" style={{ width: '100%' }} />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label" style={{color:'#777777'}}>Subject</label>
+                        <label  style={{color:'#777777'}}>Subject</label>
                         <input type="text" className="form-control" style={{ width: '100%' }} />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label" style={{color:'#777777'}}>Your Message</label><br />
+                        <label  style={{color:'#777777'}}>Your Message</label><br />
                         <textarea rows="2" style={{ width: '100%', border: '1px solid #ced4da' }}>
                         </textarea>
                     </div>
-                    <button className="m-2 px-4 py-2" style={{ border: 'none', backgroundColor: '#627f9a', color: 'white', fontSize: '18px' }}>
+                    <button className="button m-2 px-4 py-2" style={{ border: 'none', backgroundColor: '#627f9a', color: 'white', fontSize: '18px' }}>
                         SEND</button> <br />
                 </form>
             </div>
             <Comments />
             <Footer />
+            <Messenger/>
         </>
     )
 }

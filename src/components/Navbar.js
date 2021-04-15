@@ -35,7 +35,7 @@ const Navbar = () => {
                             </div>
                             <div className="col-md-4 d-flex align-items-center" style={{ fontWeight: 'bold' }}>
                                 <Link to="" className="Number text-decoration-none p-2"><i className="bi bi-telephone p-2"></i>9841501035</Link>
-                                <Link to="" className="login text-decoration-none p-2" style={{ color: 'black', fontSize: '14px' }}>LOGIN</Link>
+                                <Link to="/login" className="login text-decoration-none p-2" style={{ color: 'black', fontSize: '14px' }}>LOGIN</Link>
                                 <Link to="" className="login cart text-decoration-none p-2 d-flex align-items-center" style={{ color: 'black', fontSize: '14px' }}>CART/Rs 0.00 &nbsp;
                             <i className="bi bi-bag" style={{ color: '#627f9a', fontSize: '40px' }}></i></Link>
 

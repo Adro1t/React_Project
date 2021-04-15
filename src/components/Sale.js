@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Slider from 'react-slick'
 import './style.css'
 
@@ -53,12 +54,12 @@ const Sale = () => {
                             <img src="images/s1.jpg" />
                             <div className="sale">SALE!</div>
                             <i class="bi bi-suit-heart-fill"></i>
-                            <div className="quick-view py-1">QUICKVIEW</div>
+                            <Link className="quick-view py-1">quick view</Link>
                         </div>
                         <center>
-                            <p className="title mt-1">sunglasses</p>
-                            <p className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
-                                </p>
+                            <Link className="title mt-1">sunglasses</Link><br/>
+                            <Link className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
+                                </Link>
                             <div className="d-flex flex-wrap">
                                 <p className="prev-price">Rs 3,800.00</p>
                                 <p className="price">Rs 3,500.00</p>
@@ -71,12 +72,12 @@ const Sale = () => {
                             <img src="images/s2.jpg" />
                             <div className="sale">SALE!</div>                            
                             <i class="bi bi-suit-heart-fill"></i>
-                            <div className="quick-view py-1">QUICKVIEW</div>
+                            <Link className="quick-view py-1">quick view</Link>
                         </div>
                         <center>
-                            <p className="title mt-1">sunglasses</p>
-                            <p className="name m-0">Bishrom vintage 1243 silver sunglasses for women
-                                </p>
+                            <Link className="title mt-1">sunglasses</Link><br/>
+                            <Link className="name m-0">Bishrom vintage 1243 silver sunglasses for women
+                                </Link>
                             <div className="d-flex flex-wrap">
                                 <p className="prev-price">Rs 3,800.00</p>
                                 <p className="price">Rs 3,500.00</p>
@@ -89,12 +90,12 @@ const Sale = () => {
                             <img src="images/s3.jpg" />
                             <div className="sale">SALE!</div>                            
                             <i class="bi bi-suit-heart-fill"></i>
-                            <div className="quick-view py-1">QUICKVIEW</div>
+                            <Link className="quick-view py-1">quick view</Link>
                         </div>
                         <center>
-                            <p className="title mt-1">sunglasses</p>
-                            <p className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
-                                </p>
+                            <Link className="title mt-1">sunglasses</Link><br/>
+                            <Link className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
+                                </Link>
                             <div className="d-flex flex-wrap">
                                 <p className="prev-price">Rs 3,800.00</p>
                                 <p className="price">Rs 3,500.00</p>
@@ -107,12 +108,12 @@ const Sale = () => {
                             <img src="images/s4.jpg" />
                             <div className="sale">SALE!</div>
                             <i class="bi bi-suit-heart-fill"></i>
-                            <div className="quick-view py-1">QUICKVIEW</div>
+                            <Link className="quick-view py-1">quick view</Link>
                         </div>
                         <center>
-                            <p className="title mt-1">sunglasses</p>
-                            <p className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
-                                </p>
+                            <Link className="title mt-1">sunglasses</Link><br/>
+                            <Link className="name m-0">Bishrom vintage 1243 bronze sunglasses for women
+                                </Link>
                             <div className="d-flex flex-wrap">
                                 <p className="prev-price">Rs 3,800.00</p>
                                 <p className="price">Rs 3,500.00</p>
@@ -125,12 +126,12 @@ const Sale = () => {
                             <img src="images/s5.jpg" />
                             <div className="sale">SALE!</div>                            
                             <i class="bi bi-suit-heart-fill"></i>
-                            <div className="quick-view py-1">QUICKVIEW</div>
+                            <Link className="quick-view py-1">quick view</Link>
                         </div>
                         <center>
-                            <p className="title mt-1">men's sunglasses</p>
-                            <p className="name m-0">Bishrom Vintage 1245 silver sunglasses for men and women both
-                                </p>
+                            <Link className="title mt-1">men's sunglasses</Link><br/>
+                            <Link className="name m-0">Bishrom Vintage 1245 silver sunglasses for men and women both
+                                </Link>
                             <div className="d-flex flex-wrap">
                                 <p className="prev-price">Rs 3,800.00</p>
                                 <p className="price">Rs 3,500.00</p>
@@ -143,12 +144,12 @@ const Sale = () => {
                             <img src="images/s6.jpg" />
                             <div className="sale">SALE!</div>                            
                             <i class="bi bi-suit-heart-fill"></i>
-                            <div className="quick-view py-1">QUICKVIEW</div>
+                            <Link className="quick-view py-1">quick view</Link>
                         </div>
                         <center>
-                            <p className="title mt-1">men's sunglasses</p>
-                            <p className="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both
-                                </p>
+                            <Link className="title mt-1">men's sunglasses</Link><br/>
+                            <Link className="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both
+                                </Link>
                             <div className="d-flex flex-wrap">
                                 <p className="prev-price">Rs 3,800.00</p>
                                 <p className="price">Rs 3,500.00</p>
@@ -161,12 +162,12 @@ const Sale = () => {
                             <img src="images/s7.jpg" />
                             <div className="sale">SALE!</div>                            
                             <i class="bi bi-suit-heart-fill"></i>
-                            <div className="quick-view py-1">QUICKVIEW</div>
+                            <Link className="quick-view py-1">quick view</Link>
                         </div>
                         <center>
-                            <p className="title mt-1">men's sunglasses</p>
-                            <p className="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both
-                                </p>
+                            <Link className="title mt-1">men's sunglasses</Link><br/>
+                            <Link className="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both
+                                </Link>
                             <div className="d-flex flex-wrap">
                                 <p className="prev-price">Rs 3,800.00</p>
                                 <p className="price">Rs 3,500.00</p>
@@ -179,11 +180,11 @@ const Sale = () => {
                             <img src="images/s8.jpg" />
                             <div className="sale">SALE!</div>                            
                             <i class="bi bi-suit-heart-fill"></i>
-                            <div className="quick-view py-1">QUICKVIEW</div>
+                            <Link className="quick-view py-1">quick view</Link>
                         </div>
                         <center>
-                            <p className="title mt-1">men's sunglasses</p>
-                            <p class="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both</p>
+                            <Link className="title mt-1">men's sunglasses</Link><br/>
+                            <Link class="name m-0">Bishrom Vintage 1245 bronze sunglasses for men and women both</Link>
                             <div className="d-flex flex-wrap">
                                 <p className="prev-price">Rs 3,800.00</p>
                                 <p className="price">Rs 3,500.00</p>

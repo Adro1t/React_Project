@@ -1,7 +1,9 @@
 import React from 'react'
 import Comments from './Comments'
 import Footer from './Footer'
+import Messenger from './Messenger'
 import Navbar from './Navbar'
+import './style.css'
 
 const Wishlist = () => {
     return (
@@ -10,12 +12,12 @@ const Wishlist = () => {
             <div className="container">
                 <h3 className="m-2 mt-4" style={{color:'#555555'}}>WISHLIST</h3>
                 <h4 className="m-2 mt-5" style={{color:'#555555'}}>My wishlist on</h4>
-                <button className="m-2 px-3 py-2" style={{ border: 'none', backgroundColor: '#627f9a', color: 'white', fontSize: '18px' }}>
+                <button className="button m-2 px-3 py-2" style={{ border: 'none', backgroundColor: '#627f9a', color: 'white', fontSize: '18px' }}>
                     <i class="bi bi-pen"></i> EDIT TITLE</button> <br />
                 <input type="text" className="m-2" placeholder="My wishlist on" style={{ width: '100%' }} /><br />
-                <button className="m-2 px-3 py-2" style={{ border: 'none', backgroundColor: '#627f9a', color: 'white', fontSize: '18px' }}>
+                <button className="button m-2 px-3 py-2" style={{ border: 'none', backgroundColor: '#627f9a', color: 'white', fontSize: '18px' }}>
                     <i class="fas fa-check"></i> SAVE</button>
-                <button className="my-2 px-3 py-2" style={{ border: 'none', backgroundColor: '#627f9a', color: 'white', fontSize: '18px' }}>
+                <button className="button my-2 px-3 py-2" style={{ border: 'none', backgroundColor: '#627f9a', color: 'white', fontSize: '18px' }}>
                     <i class="fas fa-times"></i> CANCEL</button>
 
                 <div className="container m-2 mt-3">
@@ -32,6 +34,7 @@ const Wishlist = () => {
 
             <Comments />
             <Footer />
+            <Messenger/>
         </>
     )
 }
