@@ -47,7 +47,7 @@ const Footer = () => {
                         <li className="list-unstyled  px-2"><Link to="/wishlist" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>WISHLIST</Link></li>
                         <li className="list-unstyled  px-2"><Link to="/" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>HOME</Link></li>
                         <li className="list-unstyled  px-2"><Link to="" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>BLOG</Link></li>
-                        <li className="list-unstyled  px-2"><Link to="" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>OUR RETURN/EXCHANGE POLICY</Link></li>
+                        <li className="list-unstyled  px-2"><Link to="/our-return-exchange-policy" className="footer_link text-decoration-none" style={{ fontSize: '14px', color:'#999999' }}>OUR RETURN/EXCHANGE POLICY</Link></li>
                     </ul>
                     <hr className="text-white m-1" width="40%"/>
                     <p style={{ fontSize: '14px', color:'#999999'}}>Copyright 2021 &copy; Bishrom.com/. Design by &nbsp;

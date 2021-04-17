@@ -36,7 +36,7 @@ const Navbar = () => {
                             <div className="col-md-4 d-flex align-items-center" style={{ fontWeight: 'bold' }}>
                                 <Link to="" className="Number text-decoration-none p-2"><i className="bi bi-telephone p-2"></i>9841501035</Link>
                                 <Link to="/login" className="login text-decoration-none p-2" style={{ color: 'black', fontSize: '14px' }}>LOGIN</Link>
-                                <Link to="" className="login cart text-decoration-none p-2 d-flex align-items-center" style={{ color: 'black', fontSize: '14px' }}>CART/Rs 0.00 &nbsp;
+                                <Link to="/cart" className="login cart text-decoration-none p-2 d-flex align-items-center" style={{ color: 'black', fontSize: '14px' }}>CART/Rs 0.00 &nbsp;
                             <i className="bi bi-bag" style={{ color: '#627f9a', fontSize: '40px' }}></i></Link>
 
                             </div>
@@ -59,8 +59,8 @@ const Navbar = () => {
                                         sunglasses
                                 </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><Link className="dropdown-item" to="#">Action</Link></li>
-                                        <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                                        <li><Link className="dropdown-item" to="#">Men's Sunglasses</Link></li>
+                                        <li><Link className="dropdown-item" to="#">Women's Sunglasses</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown">
@@ -68,12 +68,12 @@ const Navbar = () => {
                                         eyeglasses
                                 </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><Link className="dropdown-item" to="#">Action</Link></li>
-                                        <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                                        <li><Link className="dropdown-item" to="#">Men's Eyeglasses</Link></li>
+                                        <li><Link className="dropdown-item" to="#">Women's Eyeglasses</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="#">photos</Link>
+                                    <Link className="nav-link" to="/photos">photos</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/about-us">about us</Link>
